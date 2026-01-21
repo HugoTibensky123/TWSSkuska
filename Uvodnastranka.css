@@ -1,0 +1,338 @@
+/* uvodna stranka */
+
+.a {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+}
+
+.b {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+  background-color: dodgerblue;
+  padding: 0;
+
+  border-radius: 15px;
+  box-shadow: 0 4px 10px black;
+}
+
+.nav {
+  list-style: none;             
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+ flex: 1;                               
+}
+
+.nav li a {
+  display: block;                           
+  text-align: center;
+
+  text-decoration: none;                  
+
+  color: black;
+
+  padding: 15px 0;
+  border: none;
+
+  border-radius: 12px;          
+
+  background-color: transparent;
+  transition: background-color 0.2s;                     
+}
+
+.nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+
+
+.c {
+    padding: 90px;
+    margin: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.nadpis{text-align: center;
+}
+
+
+
+.top-images {
+  text-align: center;
+  margin-bottom: 80px; 
+}
+
+.top-images img {
+  width: 500px;
+  height: 320px;
+  object-fit: cover;                                      
+  border: 4px solid dodgerblue;
+  margin: 40px; 
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;          
+  cursor: pointer;                                                   
+}
+
+.top-images img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.table {
+    border: 3px solid black; 
+    border-collapse: collapse;
+    height: 500px;
+    width: 1111px;
+    margin: 100px auto;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+   
+}
+
+td, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.f  { background-color: white; }
+.m  { background-color: brown; }
+.s  { background-color: darkolivegreen; }
+.d  { background-color: chartreuse; }
+.z  { background-color: darkgreen; }
+.sj { background-color: cadetblue; }
+.obj{ background-color: cornflowerblue; }
+.an { background-color: darkorchid; }
+.fy { background-color: palevioletred; }
+.zp { background-color: aquamarine; }
+.nb { background-color: aqua; }
+.pr { background-color: darkmagenta; }
+.l  { background-color: chocolate; }
+.ts { background-color: blue; }
+.in { background-color: darkred; }
+.oz { background-color: greenyellow; }
+
+.gregor {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
+.nadpis1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.table1 {
+    border: 3px solid black;
+    border-collapse: collapse;
+    height: 500px;
+    width: 1111px;
+    margin: 50px auto;                                    
+    font-size: 28px;
+    text-align: center;
+}
+
+.table1 th {
+    background-color: dodgerblue;
+    color: white;
+    height: 60px;
+}
+
+.table1 td {
+    border: 2px solid black;
+    height: 45px;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #eaf3ff;
+}
+
+.table1 tr:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/* zoznam */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.box {
+    width: 60%;                                  
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;                    
+}
+
+h2 {
+    color: darkred;
+}
+
+ul, ol {
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.bonus{font-size: x-large;
+color: red;}
+
+
+/* formular */
+
+.cervenah {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cierna {
+    background-color: white;
+}
+
+.pes {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;                                       
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* hover efekt */
+.pes:hover {
+    background-color: #1e90ff;
+    transform: translateY(-2px);                                   
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.pes:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* logo */
+.logo {
+    width: 30px;        
+    height: auto;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+/* galeria */
+
+
+img {
+    width: 1000px;          
+    margin-top: 20px;
+    border-radius: 10px;   
+    border: 6px solid dodgerblue;
+}
+
+.text1 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.img1 {
+  display: grid;                                     
+  grid-template-columns: repeat(2, 1fr);        
+  gap: 40px;             
+  max-width: 1200px;      
+  margin: 0 auto;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text12 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*ostatne*/
+
+
+
+
+
+
+
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;               
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.08);                                     
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
